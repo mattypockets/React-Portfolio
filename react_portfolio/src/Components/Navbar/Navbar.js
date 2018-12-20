@@ -1,10 +1,11 @@
 import React from "react";
-import { Navbar, NavbarBrand, NavbarItem, Icon, NavbarMenu, NavbarLink, NavbarDropdown, NavbarEnd, brand, NavbarBurger, NavbarStart} from 'bloomer';
+import { Navbar, NavbarBrand, NavbarItem, Icon, NavbarMenu, NavbarEnd, NavbarBurger } from 'bloomer';
+import './Navbar.css';
 
 class Nav extends React.Component  {
 
      state = {
-        isActive: false
+        
      }
 
     render() {
@@ -14,8 +15,9 @@ class Nav extends React.Component  {
 
         <NavbarBrand>
             <NavbarItem>
-                <img src={brand} style={{ marginRight: 5 }} /> Matthew Gasper
+                <Icon className='fas fa-chevron-left'/> <strong> MG </strong> <Icon className='fas fa-chevron-right' />
             </NavbarItem>
+
             {/* GitHub/LinkedIn links on Mobile */}
             <NavbarItem isHidden='desktop' href="https://github.com/mattypockets" target="_blank">
                 <Icon className='fab fa-github' />
@@ -23,23 +25,26 @@ class Nav extends React.Component  {
             <NavbarItem isHidden='desktop' href="https://linkedin.com/in/matthew-gasper" target="_blank">
                 <Icon className='fab fa-linkedin' />
             </NavbarItem>
-            <NavbarBurger isActive={this.state.isActive} onClick={this.onClickNav} />
+
+            {/* Burger Nav menu on mobile */}
+            <NavbarBurger isActive={this.state.isActive} onClick={this.onClickNav} >
+                <NavbarItem href='#/'>Home</NavbarItem>
+                <NavbarItem href='#/'>About</NavbarItem>
+                <NavbarItem href='#/'>Portfolio</NavbarItem>
+                <NavbarItem href='#/'>Contact</NavbarItem>
+            </NavbarBurger>
+
         </NavbarBrand>
 
         <NavbarMenu isActive={this.state.isActive} onClick={this.onClickNav}>
-            <NavbarStart>
-                <NavbarItem href='#/'>Home</NavbarItem>
-                <NavbarItem hasDropdown isHoverable>
-                    <NavbarLink href='#/documentation'>Documentation</NavbarLink>
-                    <NavbarDropdown>
-                        <NavbarItem href='#/'>Home</NavbarItem>
-                        <NavbarItem href='#/'>About</NavbarItem>
-                        <NavbarItem href='#/'>Portfolio</NavbarItem>
-                        <NavbarItem href='#/'>Contact</NavbarItem>
-                    </NavbarDropdown>
-                </NavbarItem>
-            </NavbarStart>
+   
+            <NavbarItem href='#/'>Home</NavbarItem>
+            <NavbarItem href='#/'>About</NavbarItem>
+            <NavbarItem href='#/'>Portfolio</NavbarItem>
+            <NavbarItem href='#/'>Contact</NavbarItem>
 
+        </NavbarMenu>   
+                
             {/* Github/LinkedIn links */}
             <NavbarEnd>
                 <NavbarItem href="https://github.com/mattypockets" target="_blank" isHidden='touch'>
@@ -49,7 +54,7 @@ class Nav extends React.Component  {
                     <Icon className='fab fa-linkedin' />
                 </NavbarItem>
             </NavbarEnd>
-        </NavbarMenu>
+        
     </Navbar>
     )
     }
