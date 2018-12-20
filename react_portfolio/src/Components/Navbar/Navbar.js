@@ -5,8 +5,16 @@ import './Navbar.css';
 class Nav extends React.Component  {
 
      state = {
-        
+        isActive: false
      }
+
+    // Toggle hamburger when clicked
+    clicky = () => {
+        if (this.state.isActive) {
+        this.setState({isActive: false});
+        } 
+        else this.setState({isActive: true})
+    }
 
     render() {
     return (
@@ -27,16 +35,12 @@ class Nav extends React.Component  {
             </NavbarItem>
 
             {/* Burger Nav menu on mobile */}
-            <NavbarBurger isActive={this.state.isActive} onClick={this.onClickNav} >
-                <NavbarItem href='#/'>Home</NavbarItem>
-                <NavbarItem href='#/'>About</NavbarItem>
-                <NavbarItem href='#/'>Portfolio</NavbarItem>
-                <NavbarItem href='#/'>Contact</NavbarItem>
-            </NavbarBurger>
+            <NavbarBurger isActive={this.state.isActive} onClick={this.clicky} />
+                
 
         </NavbarBrand>
 
-        <NavbarMenu isActive={this.state.isActive} onClick={this.onClickNav}>
+        <NavbarMenu isActive={this.state.isActive} onClick={this.clicky}>
    
             <NavbarItem href='#/'>Home</NavbarItem>
             <NavbarItem href='#/'>About</NavbarItem>
@@ -44,7 +48,7 @@ class Nav extends React.Component  {
             <NavbarItem href='#/'>Contact</NavbarItem>
 
         </NavbarMenu>   
-                
+
             {/* Github/LinkedIn links */}
             <NavbarEnd>
                 <NavbarItem href="https://github.com/mattypockets" target="_blank" isHidden='touch'>
