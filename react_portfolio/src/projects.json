@@ -2,7 +2,7 @@
 
 {
     "title": "ReciKey",
-    "imageSrc": "../public/images/kitchen.jpeg",
+    "image": "../public/images/kitchen.jpeg",
     "deployed": "https://c9-recipe-test.herokuapp.com/index.html",
     "github": "https://github.com/mattypockets/ReciKey",
     "description": "Fridge full of random ingredients? Not sure what to cook? Recikey is here to help."  

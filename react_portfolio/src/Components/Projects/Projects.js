@@ -2,28 +2,33 @@ import React from 'react';
 import { Section, Columns, Column, Card, CardHeader, CardHeaderTitle, CardHeaderIcon, Icon, CardImage, Image, CardContent, Content, Tag, Title } from "bloomer";
 import './Projects.css';
 
-const Projects =() => (
+const Projects = props => (
 
-<Footer id='footer'>
-    <Container>
-            <Content isSize='small'>
-                <Columns>
-                <Column isSize="1/4" hasTextAlign="centered">
-                    <p><Icon className='fas fa-chevron-left'/><strong>/MG</strong><Icon className='fas fa-chevron-right' /></p>
-                </Column>
+    <Column>
+        <Card>
+            <CardHeader>
+                <CardHeaderTitle>
+                    <Title><span className="header">{ props.title }</span></Title>
+                </CardHeaderTitle>
+                <CardHeaderIcon>
+                    <a target="_blank" rel="noopener noreferrer" href={ props.deployed }><Icon className="fas fa-link" /></a>
+                </CardHeaderIcon>
+                <CardHeaderIcon>
+                    <a target="_blank" rel="noopener noreferrer" href={ props.github }><Icon className="fas fa-github" /></a>
+                </CardHeaderIcon>
+            </CardHeader>
 
-                <Column isSize="1/2" hasTextAlign="centered">
-                    <p><Icon className='far fa-copyright'/>Matthew Gasper 2018</p>
-                </Column>
+            <CardImage>
+                <Image isRatio='4:3' src={ props.image } />
+            </CardImage>
 
-                <Column isSize="1/4" hasTextAlign="centered">
-                <a href="https://github.com/mattypockets" target="_blank"><Icon className='fab fa-github' /></a>
-                <a href="https://linkedin.com/in/matthew-gasper" target="_blank"><Icon className='fab fa-linkedin' /></a>
-                </Column>
-                </Columns>
-            </Content>
-    </Container>
-</Footer>
+            <CardContent>
+                <Content>
+                    <p>{ props.description }</p>
+               </Content>
+            </CardContent>
+        </Card>
+    </Column>
 
 )
 
