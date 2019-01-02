@@ -2,7 +2,7 @@ import React from "react";
 import { Section, Columns, Column, Box, Heading, Content, Title } from "bloomer";
 import "./About.css";
 
-const About = () => {
+const About = () => (
 
             <div>
                 <Section>
@@ -58,7 +58,7 @@ const About = () => {
                         </Column>
                 </Section>
             </div>
-}
+)
 
 
 export default About;
