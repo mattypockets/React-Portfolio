@@ -1,5 +1,5 @@
 import React from 'react';
-import { Section, Columns, Column, Card, CardHeader, CardHeaderTitle, CardHeaderIcon, Icon, CardImage, Image, CardContent, Content, Tag, Title } from "bloomer";
+import { Column, Card, CardHeader, CardHeaderTitle, CardHeaderIcon, Icon, CardImage, Image, CardContent, Content, Title } from "bloomer";
 import './Projects.css';
 
 const Projects = props => (
@@ -14,12 +14,12 @@ const Projects = props => (
                     <a target="_blank" rel="noopener noreferrer" href={ props.deployed }><Icon className="fas fa-link" /></a>
                 </CardHeaderIcon>
                 <CardHeaderIcon>
-                    <a target="_blank" rel="noopener noreferrer" href={ props.github }><Icon className="fas fa-github" /></a>
+                    <a target="_blank" rel="noopener noreferrer" href={ props.github }><Icon className="fab fa-github" /></a>
                 </CardHeaderIcon>
             </CardHeader>
 
             <CardImage>
-                <Image isRatio='4:3' src={ props.image } />
+                <Image isRatio='4:3' src={ window.location.origin + props.image } />
             </CardImage>
 
             <CardContent>
