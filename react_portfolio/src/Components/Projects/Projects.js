@@ -32,4 +32,4 @@ const Projects = props => (
 
 )
 
-export default Foot;
+export default Projects;
