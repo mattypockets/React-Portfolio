@@ -40,19 +40,19 @@ const About = () => (
                                 <Heading>Skills</Heading>
                                     <Content>
                                         <i class="skills devicon-html5-plain-wordmark"></i>
-                                        <i class="skills devicon-bootstrap-plain-wordmark"></i>
                                         <i class="skills devicon-css3-plain-wordmark"></i>
+                                        <i class="skills devicon-bootstrap-plain-wordmark"></i>
+                                        <i class="skills devicon-javascript-plain"></i>
+                                        <i class="devicon-jquery-plain-wordmark"></i>
                                         <i class="skills devicon-express-original-wordmark"></i>
+                                        <i class="skills devicon-nodejs-plain-wordmark"></i>                                        
+                                        <i class="skills devicon-heroku-original-wordmark"></i>
+                                        <i class="skills devicon-mysql-plain-wordmark"></i>
+                                        <i class="skills devicon-sequelize-plain-wordmark"></i>
+                                        <i class="skills devicon-mongodb-plain-wordmark"></i>
                                         <i class="skills devicon-git-plain-wordmark"></i>
                                         <i class="skills devicon-github-plain-wordmark"></i>
-                                        <i class="skills devicon-heroku-original-wordmark"></i>
-                                        <i class="skills devicon-html5-plain-wordmark"></i>
-                                        <i class="skills devicon-javascript-plain"></i>
-                                        <i class="skills devicon-mongodb-plain-wordmark"></i>
-                                        <i class="skills devicon-mysql-plain-wordmark"></i>
-                                        <i class="skills devicon-nodejs-plain-wordmark"></i>
-                                        <i class="skills devicon-react-original-wordmark"></i>
-                                        <i class="skills devicon-sequelize-plain-wordmark"></i>
+                                        <i class="skills devicon-react-original-wordmark"></i>                                        
                                     </Content>
                             </Box>
                         </Column>
