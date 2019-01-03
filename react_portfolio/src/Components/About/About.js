@@ -1,5 +1,5 @@
 import React from "react";
-import { Section, Columns, Column, Heading, Content, Title } from "bloomer";
+import { Section, Columns, Column, Content, Title } from "bloomer";
 import "./About.css";
 
 const About = () => (

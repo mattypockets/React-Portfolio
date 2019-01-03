@@ -27,10 +27,10 @@ class Nav extends React.Component  {
             </NavbarItem>
 
             {/* GitHub/LinkedIn links on Mobile */}
-            <NavbarItem isHidden='desktop' href="https://github.com/mattypockets" target="_blank">
+            <NavbarItem isHidden='desktop' href="https://github.com/mattypockets" target="_blank" rel="noopener noreferrer">
                 <Icon className='fab fa-github' />
             </NavbarItem>
-            <NavbarItem isHidden='desktop' href="https://linkedin.com/in/matthew-gasper" target="_blank">
+            <NavbarItem isHidden='desktop' href="https://linkedin.com/in/matthew-gasper" target="_blank" rel="noopener noreferrer">
                 <Icon className='fab fa-linkedin' />
             </NavbarItem>
 

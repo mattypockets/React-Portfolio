@@ -17,8 +17,8 @@ const Foot =() => (
                 </Column>
 
                 <Column isSize="1/4" hasTextAlign="centered">
-                <a href="https://github.com/mattypockets" target="_blank"><Icon className='fab fa-github' /></a>
-                <a href="https://linkedin.com/in/matthew-gasper" target="_blank"><Icon className='fab fa-linkedin' /></a>
+                <a href="https://github.com/mattypockets" target="_blank" rel="noopener noreferrer"><Icon className='fab fa-github' /></a>
+                <a href="https://linkedin.com/in/matthew-gasper" target="_blank" rel="noopener noreferrer"><Icon className='fab fa-linkedin' /></a>
                 </Column>
                 </Columns>
             </Content>
