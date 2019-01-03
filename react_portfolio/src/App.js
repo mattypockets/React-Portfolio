@@ -4,7 +4,8 @@ import Foot from './Components/Footer';
 import Projects from './Components/Projects';
 import projectInfo from './projects.json';
 import {Section, Columns} from 'bloomer';
-import About from './Components/About'
+import About from './Components/About';
+import Welcome from './Components/Welcome';
 
 class App extends Component {
 
@@ -16,6 +17,7 @@ render() {
   return (
     <div>
       <Nav />
+      <Welcome />
       <About />
       <div>
         <Section>
