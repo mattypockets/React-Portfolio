@@ -4,7 +4,7 @@ import './Projects.css';
 
 const Projects = props => (
 
-    <Column>
+    <Column className="project">
         <Card>
             <CardHeader>
                 <CardHeaderTitle>

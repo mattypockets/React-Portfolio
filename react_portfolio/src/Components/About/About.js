@@ -5,7 +5,7 @@ import "./About.css";
 const About = () => (
 
             <div>
-                <Section>
+                <Section className="about">
                     <Columns isCentered>
                         <Column isSize="3/4">
                                 <Title isSize={3}>About</Title>
@@ -33,7 +33,7 @@ const About = () => (
                         </Column>
                     </Columns>
 
-                        <Column>
+                        <Column className="skillContainer">
                             <Title isSize={3}>Skills</Title>
                             <hr></hr>
                                 <Content>
@@ -41,7 +41,7 @@ const About = () => (
                                     <i class="skills devicon-css3-plain-wordmark"></i>
                                     <i class="skills devicon-bootstrap-plain-wordmark"></i>
                                     <i class="skills devicon-javascript-plain"></i>
-                                    <i class="devicon-jquery-plain-wordmark"></i>
+                                    <i class="skills devicon-jquery-plain-wordmark"></i>
                                     <i class="skills devicon-express-original-wordmark"></i>
                                     <i class="skills devicon-nodejs-plain-wordmark"></i>                                        
                                     <i class="skills devicon-heroku-original-wordmark"></i>

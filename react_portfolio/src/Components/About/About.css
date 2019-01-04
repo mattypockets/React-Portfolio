@@ -1,0 +1,24 @@
+hr {
+    width: 40px;
+    background-color: rgba(0,0,0,.6)
+}
+
+.about {
+    background-color: rgba(0,0,0,.1);
+    line-height: 1.1;
+}
+
+.skills {
+    font-size: 3em;
+    color: rgba(0,0,0,.4);
+    padding: 8px;
+    margin: 8px 8px 8px 0;
+}
+
+.skillContainer {
+    text-align: center;
+}
+
+.skillContainer hr{
+    text-align: center;
+}

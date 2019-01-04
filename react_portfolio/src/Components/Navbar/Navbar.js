@@ -52,10 +52,10 @@ class Nav extends React.Component  {
             {/* Github/LinkedIn links */}
             <NavbarEnd>
                 <NavbarItem href="https://github.com/mattypockets" target="_blank" isHidden='touch'>
-                    <Icon className='fab fa-github' />
+                    <Icon className='fab fa-github link' />
                 </NavbarItem>
                 <NavbarItem href="https://linkedin.com/in/matthew-gasper" target="_blank" isHidden='touch'>
-                    <Icon className='fab fa-linkedin' />
+                    <Icon className='fab fa-linkedin link' />
                 </NavbarItem>
             </NavbarEnd>
         
