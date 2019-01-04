@@ -9,7 +9,7 @@ const About = () => (
                     <Columns isCentered>
                         <Column isSize="3/4">
                                 <Title isSize={3}>About</Title>
-                                <hr></hr>
+                                <div className="notAnHrLeft"></div>
                                 <p>Hi, I'm Matt! I am a Full Stack Web Developer with a passion for creating attractive,
                                 functional sites for any purpose. I’m experienced in HTML, CSS, JavaScript, jQuery, MySQL, Node.js, React and more. I am also constantly
                                 learning new technologies to help expand my knowledge base and flexibility in development.</p>
@@ -18,10 +18,10 @@ const About = () => (
                                 collaboration, and attention to detail. This experience has carried over into my development work where I prioritize clean,
                                 workable code and communication with team members. Feel free to check out my GitHub page for examples of my code.</p>    
                         </Column>
-                        <Column isSize="1/4">
+                        <Column isSize="1/4" className="education">
                                 <Title isSize={3}>Education</Title>
-                                    <hr></hr>
-                                    <Content>
+                                    <div className="notAnHrRight"></div>
+                                    <Content className="eduContent">
                                         <Title isSize={5}>University of Minnesota</Title>
                                         <p>2018 - St. Paul, MN</p>
                                         <p>Coding Bootcamp, Full-Stack Web Development</p>
@@ -35,7 +35,7 @@ const About = () => (
 
                         <Column className="skillContainer">
                             <Title isSize={3}>Skills</Title>
-                            <hr></hr>
+                            <div className="notAnHrCenter"></div>
                                 <Content>
                                     <i class="skills devicon-html5-plain-wordmark"></i>
                                     <i class="skills devicon-css3-plain-wordmark"></i>
