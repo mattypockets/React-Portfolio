@@ -2,12 +2,5 @@
     bottom: 0;
     width: 100%;
     padding: 1%;
-}
-
-a:hover {
-    color: #3172E8;
-}
-
-a {
-    color: #474747;
+    background-color: #262626;
 }

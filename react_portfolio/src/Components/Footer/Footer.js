@@ -15,8 +15,8 @@ const Foot =() => (
                     <p><Icon className='far fa-copyright'/>Matthew Gasper 2018</p>
                 </Column>
                 <Column isSize="1/4" hasTextAlign="centered">
-                <a href="https://github.com/mattypockets" target="_blank" rel="noopener noreferrer"><Icon className='fab fa-github' /></a>
-                <a href="https://linkedin.com/in/matthew-gasper" target="_blank" rel="noopener noreferrer"><Icon className='fab fa-linkedin' /></a>
+                <a href="https://github.com/mattypockets" target="_blank" rel="noopener noreferrer"><Icon className='fab fa-github link' /></a>
+                <a href="https://linkedin.com/in/matthew-gasper" target="_blank" rel="noopener noreferrer"><Icon className='fab fa-linkedin link' /></a>
                 </Column>
                 </Columns>
             </Content>
