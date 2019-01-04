@@ -36,7 +36,7 @@ const About = () => (
                         <Column className="skillContainer">
                             <Title isSize={3}>Skills</Title>
                             <div className="notAnHrCenter"></div>
-                                <Content>
+                                <Column>
                                     <i class="skills devicon-html5-plain-wordmark"></i>
                                     <i class="skills devicon-css3-plain-wordmark"></i>
                                     <i class="skills devicon-bootstrap-plain-wordmark"></i>
@@ -51,7 +51,7 @@ const About = () => (
                                     <i class="skills devicon-git-plain-wordmark"></i>
                                     <i class="skills devicon-github-plain-wordmark"></i>
                                     <i class="skills devicon-react-original-wordmark"></i>                                        
-                                </Content>
+                                </Column>
                         </Column>
                 </Section>
             </div>
