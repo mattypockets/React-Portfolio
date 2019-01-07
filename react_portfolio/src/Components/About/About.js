@@ -37,20 +37,43 @@ const About = () => (
                             <Title isSize={3}>Skills</Title>
                             <div className="notAnHrCenter"></div>
                                 <Column>
-                                    <i class="skills devicon-html5-plain-wordmark"></i>
-                                    <i class="skills devicon-css3-plain-wordmark"></i>
-                                    <i class="skills devicon-bootstrap-plain-wordmark"></i>
-                                    <i class="skills devicon-javascript-plain"></i>
-                                    <i class="skills devicon-jquery-plain-wordmark"></i>
-                                    <i class="skills devicon-express-original-wordmark"></i>
-                                    <i class="skills devicon-nodejs-plain-wordmark"></i>                                        
-                                    <i class="skills devicon-heroku-original-wordmark"></i>
-                                    <i class="skills devicon-mysql-plain-wordmark"></i>
-                                    <i class="skills devicon-sequelize-plain-wordmark"></i>
-                                    <i class="skills devicon-mongodb-plain-wordmark"></i>
-                                    <i class="skills devicon-git-plain-wordmark"></i>
-                                    <i class="skills devicon-github-plain-wordmark"></i>
-                                    <i class="skills devicon-react-original-wordmark"></i>                                        
+                                    <Content isHidden="touch">
+                                        <i class="skills devicon-html5-plain-wordmark"></i>
+                                        <i class="skills devicon-css3-plain-wordmark"></i>
+                                        <i class="skills devicon-bootstrap-plain-wordmark"></i>
+                                        <i class="skills devicon-javascript-plain"></i>
+                                        <i class="skills devicon-jquery-plain-wordmark"></i>
+                                        <i class="skills devicon-express-original-wordmark"></i>
+                                        <i class="skills devicon-nodejs-plain-wordmark"></i>                                        
+                                        <i class="skills devicon-heroku-original-wordmark"></i>
+                                        <i class="skills devicon-mysql-plain-wordmark"></i>
+                                        <i class="skills devicon-sequelize-plain-wordmark"></i>
+                                        <i class="skills devicon-mongodb-plain-wordmark"></i>
+                                        <i class="skills devicon-git-plain-wordmark"></i>
+                                        <i class="skills devicon-github-plain-wordmark"></i>
+                                        <i class="skills devicon-react-original-wordmark"></i>  
+                                    </Content>
+
+                                    <Content isHidden='desktop'>
+                                        <i class="skills devicon-html5-plain-wordmark"></i>
+                                        <i class="skills devicon-css3-plain-wordmark"></i>
+                                        <i class="skills devicon-bootstrap-plain-wordmark"></i>
+                                    </Content>                                      
+                                    <Content isHidden='desktop'>
+                                        <i class="skills devicon-javascript-plain"></i>
+                                        <i class="skills devicon-jquery-plain-wordmark"></i>
+                                        <i class="skills devicon-express-original-wordmark"></i>
+                                    </Content>                                      
+                                    <Content isHidden='desktop'>
+                                        <i class="skills devicon-nodejs-plain-wordmark"></i>                                        
+                                        <i class="skills devicon-heroku-original-wordmark"></i>
+                                        <i class="skills devicon-mysql-plain-wordmark"></i>
+                                    </Content>                                      
+                                    <Content isHidden='desktop'>
+                                        <i class="skills devicon-sequelize-plain-wordmark"></i>
+                                        <i class="skills devicon-mongodb-plain-wordmark"></i>
+                                        <i class="skills devicon-git-plain-wordmark"></i>
+                                    </Content>                                      
                                 </Column>
                         </Column>
                 </Section>

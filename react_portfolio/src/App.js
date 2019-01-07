@@ -20,7 +20,7 @@ render() {
       <Welcome />
       <About />
       <div>
-        <Section>
+        <Section className="projectSection">
             <Columns isCentered>
               {this.state.projectInfo.map(project => (
                 <Projects
