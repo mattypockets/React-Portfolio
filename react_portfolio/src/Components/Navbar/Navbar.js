@@ -1,6 +1,7 @@
 import React from "react";
 import { Navbar, NavbarBrand, NavbarItem, Icon, NavbarMenu, NavbarEnd, NavbarBurger } from 'bloomer';
 import './Navbar.css';
+import { Link } from 'react-router-dom';
 
 class Nav extends React.Component  {
 
@@ -42,9 +43,9 @@ class Nav extends React.Component  {
 
         <NavbarMenu isActive={this.state.isActive} onClick={this.clicky} className="mobileMenu">
    
-            <NavbarItem className="mobileItem" href='#/'>Home</NavbarItem>
-            <NavbarItem className="mobileItem" href='#/'>About</NavbarItem>
-            <NavbarItem className="mobileItem" href='#/'>Portfolio</NavbarItem>
+            <NavbarItem className="mobileItem"><Link to='/'>Home</Link></NavbarItem>
+            <NavbarItem className="mobileItem"><Link to='/about/'>About</Link></NavbarItem>
+            <NavbarItem className="mobileItem" href='#/'><Link to='/projects/'>Portfolio</Link></NavbarItem>
             {/* <NavbarItem className="mobileItem" href='#/'>Contact</NavbarItem> */}
 
         </NavbarMenu>   
