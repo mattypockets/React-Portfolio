@@ -17,3 +17,12 @@ a.navbar-item:hover, .link:hover {
     color: #FAFAFC;
 }
 
+.mobileMenu {
+    background-color: #262626;
+    padding: 0px
+}
+
+.mobileItem {
+    border-top: 1px solid #FAFAFC
+}
+

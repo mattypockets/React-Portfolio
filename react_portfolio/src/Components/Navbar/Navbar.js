@@ -40,12 +40,12 @@ class Nav extends React.Component  {
 
         </NavbarBrand>
 
-        <NavbarMenu isActive={this.state.isActive} onClick={this.clicky}>
+        <NavbarMenu isActive={this.state.isActive} onClick={this.clicky} className="mobileMenu">
    
-            <NavbarItem href='#/'>Home</NavbarItem>
-            <NavbarItem href='#/'>About</NavbarItem>
-            <NavbarItem href='#/'>Portfolio</NavbarItem>
-            <NavbarItem href='#/'>Contact</NavbarItem>
+            <NavbarItem className="mobileItem" href='#/'>Home</NavbarItem>
+            <NavbarItem className="mobileItem" href='#/'>About</NavbarItem>
+            <NavbarItem className="mobileItem" href='#/'>Portfolio</NavbarItem>
+            <NavbarItem className="mobileItem" href='#/'>Contact</NavbarItem>
 
         </NavbarMenu>   
 

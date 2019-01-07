@@ -5,16 +5,16 @@ import './Projects.css';
 const Projects = props => (
 
     <Column className="project">
-        <Card>
+        <Card className="projectCard">
             <CardHeader>
                 <CardHeaderTitle>
                     <Title><span className="header">{ props.title }</span></Title>
                 </CardHeaderTitle>
                 <CardHeaderIcon>
-                    <a target="_blank" rel="noopener noreferrer" href={ props.deployed }><Icon className="fas fa-link" /></a>
+                    <a target="_blank" rel="noopener noreferrer" href={ props.deployed }><Icon className="fas fa-link projectLink" /></a>
                 </CardHeaderIcon>
                 <CardHeaderIcon>
-                    <a target="_blank" rel="noopener noreferrer" href={ props.github }><Icon className="fab fa-github" /></a>
+                    <a target="_blank" rel="noopener noreferrer" href={ props.github }><Icon className="fab fa-github projectLink" /></a>
                 </CardHeaderIcon>
             </CardHeader>
 
