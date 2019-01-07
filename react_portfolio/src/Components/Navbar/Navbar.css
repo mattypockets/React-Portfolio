@@ -22,10 +22,6 @@ a.navbar-item:hover, .link:hover {
     padding: 0px
 }
 
-.mobileItem {
-    border-top: 1px solid #FAFAFC
-}
-
 .navbar-burger {
     color: #FAFAFC
 }

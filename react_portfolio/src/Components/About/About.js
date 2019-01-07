@@ -10,6 +10,7 @@ const About = () => (
                         <Column isSize="3/4">
                                 <Title isSize={3}>About</Title>
                                 <div className="notAnHrLeft"></div>
+                                <Content className="aboutContent">
                                 <p>Hi, I'm Matt! I am a Full Stack Web Developer with a passion for creating attractive,
                                 functional sites for any purpose. I’m experienced in HTML, CSS, JavaScript, jQuery, MySQL, Node.js, React and more. I am also constantly
                                 learning new technologies to help expand my knowledge base and flexibility in development.</p>
@@ -17,6 +18,7 @@ const About = () => (
                                 <p>In my previous job experience, I have trained and managed teams of 10-15 employees. With those teams I emphasized communication,
                                 collaboration, and attention to detail. This experience has carried over into my development work where I prioritize clean,
                                 workable code and communication with team members. Feel free to check out my GitHub page for examples of my code.</p>    
+                                </Content>
                         </Column>
                         <Column isSize="1/4" className="education">
                                 <Title isSize={3}>Education</Title>
@@ -34,7 +36,7 @@ const About = () => (
                     </Columns>
 
                         <Column className="skillContainer">
-                            <Title isSize={3}>Skills</Title>
+                            <Title isSize={3} id="skillTitle">Skills</Title>
                             <div className="notAnHrCenter"></div>
                                 <Column>
                                     <Content isHidden="touch">

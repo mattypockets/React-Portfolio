@@ -22,27 +22,28 @@
     text-align: right;
 }
 
-.notAnHrRight {
+.notAnHrCenter, .notAnHrLeft, .notAnHrRight {
     width: 40px;
     height: 1px;
     background-color: rgba(0,0,0,.6);
+}
+
+.notAnHrRight {
     float: right;
 }
 
 .notAnHrLeft {
-    width: 40px;
-    height: 1px;
-    background-color: rgba(0,0,0,.6);
     float: left;
 }
 
 .notAnHrCenter {
-    width: 40px;
-    height: 1px;
-    background-color: rgba(0,0,0,.6);
-    float: center;
+    display: inline-block;
 }
 
-.eduContent {
+.eduContent, .aboutContent {
     margin-top: 2.5em;
+}
+
+#skillTitle {
+    margin-bottom: 0;
 }

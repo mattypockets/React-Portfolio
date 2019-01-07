@@ -45,7 +45,7 @@ class Nav extends React.Component  {
             <NavbarItem className="mobileItem" href='#/'>Home</NavbarItem>
             <NavbarItem className="mobileItem" href='#/'>About</NavbarItem>
             <NavbarItem className="mobileItem" href='#/'>Portfolio</NavbarItem>
-            <NavbarItem className="mobileItem" href='#/'>Contact</NavbarItem>
+            {/* <NavbarItem className="mobileItem" href='#/'>Contact</NavbarItem> */}
 
         </NavbarMenu>   
 
