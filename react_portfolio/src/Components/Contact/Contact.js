@@ -21,19 +21,19 @@ class Contact extends React.Component {
                                 <Columns>
                                     <Column isSize='1/3'>
                                         <Field>
-                                            <Label>Name:</Label>
+                                            <Label>Name</Label>
                                             <Control>
                                                 <Input placeholder='David Byrne' />
                                             </Control>
                                         </Field>
                                         <Field>
-                                            <Label>Email:</Label>
+                                            <Label>Email</Label>
                                             <Control>
                                                 <Input placeholder='david@talkingheads.com' />
                                             </Control>
                                         </Field>
                                         <Field>
-                                            <Label>Subject:</Label>
+                                            <Label>Subject</Label>
                                             <Control>
                                                 <Input placeholder='Once in a Lifetime' />
                                             </Control>
