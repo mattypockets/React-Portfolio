@@ -4,7 +4,8 @@ import Foot from './Components/Footer';
 import Project from './Components/Project';
 import About from './Components/About';
 import Welcome from './Components/Welcome';
-import {BrowserRouter as Router, Route } from "react-router-dom";
+import Contact from './Components/Contact';
+import {BrowserRouter as Router } from "react-router-dom";
 
 class App extends Component {
 
@@ -15,7 +16,8 @@ render() {
         <Nav />
         <Welcome />
         <About />
-        <Route path='projects/'><Project /></Route>
+        <Project />
+        <Contact />
         <Foot />
       </div>
     </Router>
