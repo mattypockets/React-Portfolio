@@ -2,7 +2,7 @@ import React from 'react';
 
 import Projects from '../Projects';
 import projectInfo from '../../projects.json';
-import {Section, Columns} from 'bloomer';
+import {Section, Columns, Title} from 'bloomer';
 
 class Project extends React.Component {
 
@@ -14,6 +14,10 @@ render () {
     return (
         <div>
           <Section className="projectSection" id="portfolio">
+            <div className="projectContainer">
+              <Title isSize={3} id="skillTitle">Portfolio</Title>
+              <div className="notAnHrCenter"></div>
+            </div>
               <Columns isCentered>
                 {this.state.projectInfo.map(project => (
                   <Projects

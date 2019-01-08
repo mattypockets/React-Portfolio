@@ -9,3 +9,8 @@
 .projectCard {
     min-height: 500px;
 }
+
+.projectContainer {
+    margin-bottom: 2.5em;
+    text-align: center;
+}

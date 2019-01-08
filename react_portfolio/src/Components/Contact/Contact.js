@@ -13,8 +13,10 @@ class Contact extends React.Component {
                 <Section>
                     <Columns isCentered>
                         <Column>
+                            <div className="contactTitle">
                             <Title><span className="header">Contact</span></Title>
                             <div className='notAnHrLeft'></div>
+                            </div>
                             <form action="mailto:mrgasper27@gmail.com" method="post" encType="text/plain">
                                 <Columns>
                                     <Column isSize='1/3'>
@@ -38,27 +40,27 @@ class Contact extends React.Component {
                                         </Field>
                                     </Column>
                                     <Column isSize="2/3">
+                                        <Field>
+                                        <Label>Message</Label>
+                                        <FieldBody>
                                             <Field>
-                                            <Label>Message</Label>
-                                            <FieldBody>
-                                                <Field>
-                                                    <Control>
-                                                        <TextArea className="messsage" placeholder='This is not my beautiful house. This is not my beautiful wife. How did I get here?' />
-                                                    </Control>
-                                                </Field>
-                                            </FieldBody>
+                                                <Control>
+                                                    <TextArea className="messageBox" placeholder='This is not my beautiful house. This is not my beautiful wife. How did I get here?' />
+                                                </Control>
                                             </Field>
+                                        </FieldBody>
+                                        </Field>
 
+                                        <Field>
+                                        <FieldLabel /> {/* empty for spacing */}
+                                        <FieldBody>
                                             <Field>
-                                            <FieldLabel /> {/* empty for spacing */}
-                                            <FieldBody>
-                                                <Field>
-                                                    <Control>
-                                                        <Button>Submit</Button>
-                                                    </Control>
-                                                </Field>
-                                            </FieldBody>
+                                                <Control>
+                                                    <Button>Submit</Button>
+                                                </Control>
                                             </Field>
+                                        </FieldBody>
+                                        </Field>
                                     </Column>
                                 </Columns>
                             </form>

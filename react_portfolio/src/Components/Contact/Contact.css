@@ -3,6 +3,11 @@ button {
     float: right;
 }
 
-.textarea {
-    min-height: 200px;
+/* Box would not resize w/o !important, regardless of specificity */
+.messageBox {
+    min-height: 200px !important;
+}
+
+.contactTitle {
+    margin-bottom: 2.5em;
 }
