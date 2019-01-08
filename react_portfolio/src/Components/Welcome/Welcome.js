@@ -8,7 +8,7 @@ import Typed from 'typed.js';
 class Welcome extends React.Component {
     
    componentDidMount() {
-       const strings = ["Full Stack Web Developer",
+       const strings = ["Full-Stack Web Developer",
                         "Graduate of the University of Minnesota Coding Bootcamp",
                         "Skills include......",
                         "EIGHT-FOOT VERTICAL LEAP",
