@@ -17,7 +17,7 @@ class Contact extends React.Component {
                             <Title><span className="header">Contact</span></Title>
                             <div className='notAnHrLeft'></div>
                             </div>
-                            <form method="POST" action="https://formspree.io/your@email.com">
+                            <form method="POST" action="https://formspree.io/mrgasper27@gmail.com">
                                 <Columns>
                                     <Column isSize='1/3'>
                                         <Field>
