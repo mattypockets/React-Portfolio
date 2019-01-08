@@ -2,7 +2,7 @@
 
 {
     "title": "ReciKey",
-    "image": "/images/kitchen.jpeg",
+    "image": "/React-Portfolio/images/kitchen.jpeg",
     "deployed": "https://c9-recipe-test.herokuapp.com/index.html",
     "github": "https://github.com/mattypockets/ReciKey",
     "description": "Fridge full of random ingredients? Not sure what to cook? Recikey is here to help."  
@@ -10,7 +10,7 @@
  
 {
     "title": "Shreddit",
-    "image": "/images/Shreddit.png",
+    "image": "/React-Portfolio/images/Shreddit.png",
     "deployed": "https://shredditmern.herokuapp.com",
     "github": "https://github.com/mattypockets/Shreddit",
     "description": "Make simple melodies and save them to the feed, vote on your favorites, and add comments to let users know what you think!"   
@@ -18,7 +18,7 @@
 
 {
     "title": "Settle-It",
-    "image": "/images/settle.jpg",
+    "image": "/React-Portfolio/images/settle.jpg",
     "deployed": "https://settle-it.herokuapp.com/",
     "github": "https://github.com/mattypockets/Settle-It",
     "description": "Ever wanted to settle a debate simply and decisively? Post your side of an argument and invite another user to explain their side. Users vote to decide who wins so you can finally Settle It!"   
