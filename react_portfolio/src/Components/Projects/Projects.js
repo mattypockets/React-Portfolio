@@ -11,10 +11,10 @@ const Projects = props => (
                     <Title><span className="header">{ props.title }</span></Title>
                 </CardHeaderTitle>
                 <CardHeaderIcon>
-                    <a target="_blank" rel="noopener noreferrer" href={ props.deployed }><Icon className="fas fa-link projectLink" /></a>
+                    <a target="_blank" rel="noopener noreferrer" href={ props.deployed } className="projectLink"><Icon className="fas fa-link projectLink" /></a>
                 </CardHeaderIcon>
                 <CardHeaderIcon>
-                    <a target="_blank" rel="noopener noreferrer" href={ props.github }><Icon className="fab fa-github projectLink" /></a>
+                    <a target="_blank" rel="noopener noreferrer" href={ props.github }className="projectLink"><Icon className="fab fa-github projectLink" /></a>
                 </CardHeaderIcon>
             </CardHeader>
 

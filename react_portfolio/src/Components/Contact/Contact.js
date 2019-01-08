@@ -10,7 +10,7 @@ class Contact extends React.Component {
     render() {
         return (
             <div>
-                <Section>
+                <Section id="contact">
                     <Columns isCentered>
                         <Column>
                             <div className="contactTitle">

@@ -6,8 +6,13 @@
     color: black;
 }
 
+a.card-header-icon:hover, .projectLink:hover {
+    color: black;
+    background-color: white;
+}
+
 .projectCard {
-    min-height: 510px;
+    min-height: 475px;
 }
 
 .projectContainer {

@@ -55,7 +55,7 @@ class Nav extends React.Component  {
             <NavbarItem className="mobileItem"><NavLink smooth to='#home'>Home</NavLink></NavbarItem>
             <NavbarItem className="mobileItem"><NavLink to='#about' scroll={el => this.scrollWithOffset(el,50)}>About</NavLink></NavbarItem>
             <NavbarItem className="mobileItem"><NavLink to='#portfolio' scroll={el => this.scrollWithOffset(el,50)}>Portfolio</NavLink></NavbarItem>
-            {/* <NavbarItem className="mobileItem" href='#/'>Contact</NavbarItem> */}
+            <NavbarItem className="mobileItem"><NavLink to='#contact' scroll={el => this.scrollWithOffset(el,50)}>Contact</NavLink></NavbarItem>
 
         </NavbarMenu>   
 
