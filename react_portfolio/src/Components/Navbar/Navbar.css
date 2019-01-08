@@ -8,12 +8,12 @@
     background-color: #262626;
 }
 
-a.navbar-item:hover, .link:hover {
+a.navbar-item:hover, .link:hover, a:hover {
     background-color: #262626;
     color: #3A9F86
 }
 
-.icon, strong, .navbar-item {
+.icon, strong, .navbar-item, a {
     color: #FAFAFC;
 }
 
@@ -25,4 +25,3 @@ a.navbar-item:hover, .link:hover {
 .navbar-burger {
     color: #FAFAFC
 }
-

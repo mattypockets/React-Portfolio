@@ -1,7 +1,7 @@
 import React from "react";
 import { Navbar, NavbarBrand, NavbarItem, Icon, NavbarMenu, NavbarEnd, NavbarBurger } from 'bloomer';
 import './Navbar.css';
-import { Link } from 'react-router-dom';
+import { NavHashLink as NavLink } from 'react-router-hash-link';
 
 class Nav extends React.Component  {
 
@@ -15,6 +15,15 @@ class Nav extends React.Component  {
         this.setState({isActive: false});
         } 
         else this.setState({isActive: true})
+    }
+
+    scrollWithOffset = (el, offset) => {
+        const elementPosition = el.offsetTop - offset;
+        window.scroll({
+            top: elementPosition,
+            left: 0,
+            behavior: "smooth"
+        })
     }
 
     render() {
@@ -43,9 +52,9 @@ class Nav extends React.Component  {
 
         <NavbarMenu isActive={this.state.isActive} onClick={this.clicky} className="mobileMenu">
    
-            <NavbarItem className="mobileItem"><Link to='/'>Home</Link></NavbarItem>
-            <NavbarItem className="mobileItem"><Link to='/about/'>About</Link></NavbarItem>
-            <NavbarItem className="mobileItem" href='#/'><Link to='/projects/'>Portfolio</Link></NavbarItem>
+            <NavbarItem className="mobileItem"><NavLink smooth to='#home'>Home</NavLink></NavbarItem>
+            <NavbarItem className="mobileItem"><NavLink to='#about' scroll={el => this.scrollWithOffset(el,50)}>About</NavLink></NavbarItem>
+            <NavbarItem className="mobileItem"><NavLink to='#portfolio' scroll={el => this.scrollWithOffset(el,50)}>Portfolio</NavLink></NavbarItem>
             {/* <NavbarItem className="mobileItem" href='#/'>Contact</NavbarItem> */}
 
         </NavbarMenu>   
