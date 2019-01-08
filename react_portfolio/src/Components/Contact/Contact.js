@@ -17,25 +17,25 @@ class Contact extends React.Component {
                             <Title><span className="header">Contact</span></Title>
                             <div className='notAnHrLeft'></div>
                             </div>
-                            <form action="mailto:mrgasper27@gmail.com" method="post" encType="text/plain">
+                            <form method="POST" action="https://formspree.io/your@email.com">
                                 <Columns>
                                     <Column isSize='1/3'>
                                         <Field>
                                             <Label>Name</Label>
                                             <Control>
-                                                <Input placeholder='David Byrne' />
+                                                <Input name="name" placeholder='David Byrne' />
                                             </Control>
                                         </Field>
                                         <Field>
                                             <Label>Email</Label>
                                             <Control>
-                                                <Input placeholder='david@talkingheads.com' />
+                                                <Input name="email" placeholder='david@talkingheads.com' />
                                             </Control>
                                         </Field>
                                         <Field>
                                             <Label>Subject</Label>
                                             <Control>
-                                                <Input placeholder='Once in a Lifetime' />
+                                                <Input name="subject" placeholder='Once in a Lifetime' />
                                             </Control>
                                         </Field>
                                     </Column>
@@ -45,7 +45,7 @@ class Contact extends React.Component {
                                         <FieldBody>
                                             <Field>
                                                 <Control>
-                                                    <TextArea className="messageBox" placeholder='This is not my beautiful house. This is not my beautiful wife. How did I get here?' />
+                                                    <TextArea name="message" className="messageBox" placeholder='This is not my beautiful house. This is not my beautiful wife. How did I get here?' />
                                                 </Control>
                                             </Field>
                                         </FieldBody>
@@ -56,7 +56,7 @@ class Contact extends React.Component {
                                         <FieldBody>
                                             <Field>
                                                 <Control>
-                                                    <Button>Submit</Button>
+                                                    <Button type="submit">Submit</Button>
                                                 </Control>
                                             </Field>
                                         </FieldBody>
