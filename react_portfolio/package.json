@@ -2,7 +2,7 @@
   "name": "react_portfolio",
   "version": "0.1.0",
   "private": true,
-  "homepage": "https://mattgasper.com",
+  "homepage": "https://mattypockets.github.io/React-Portfolio",
   "dependencies": {
     "bloomer": "^0.6.5",
     "bulma": "^0.7.2",
