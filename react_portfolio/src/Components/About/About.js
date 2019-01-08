@@ -5,7 +5,7 @@ import "./About.css";
 const About = () => (
 
             <div>
-                <Section className="about">
+                <Section className="about" id="about">
                     <Columns isCentered>
                         <Column isSize="3/4">
                                 <Title isSize={3}>About</Title>

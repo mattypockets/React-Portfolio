@@ -13,7 +13,7 @@ state = {
 render () {
     return (
         <div>
-          <Section className="projectSection">
+          <Section className="projectSection" id="portfolio">
               <Columns isCentered>
                 {this.state.projectInfo.map(project => (
                   <Projects
