@@ -9,7 +9,7 @@ class Welcome extends React.Component {
 
     render() {
         return(
-            <Hero className="banner" isColor='dark' isSize='large'>
+            <Hero className="banner" isColor='dark' isSize='large' id="home">
                 <HeroBody>
                     <Particles params={ParticlesConfig} />
                     <Container hasTextAlign='centered'>
