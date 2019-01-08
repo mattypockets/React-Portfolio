@@ -45,7 +45,7 @@ class Contact extends React.Component {
                                         <FieldBody>
                                             <Field>
                                                 <Control>
-                                                    <TextArea name="message" className="messageBox" placeholder='This is not my beautiful house. This is not my beautiful wife. How did I get here?' />
+                                                    <TextArea name="message" className="messageBox" placeholder='This is not my beautiful house! This is not my beautiful wife! How did I get here?' />
                                                 </Control>
                                             </Field>
                                         </FieldBody>
