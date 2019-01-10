@@ -1,5 +1,4 @@
 # Matthew Gasper - Personal Portfolio
-### Last updated 1/19
 
 
 ### Technologies Used
