@@ -4,12 +4,12 @@
 
 ### Technologies Used
 ***
-React - [reactjs.org]
+[React](https://reactjs.org)
 
-Bloomer - [bloomer.js.org]
+[Bloomer](https://bloomer.js.org)
 
-Bulma - [bulma.io]
+[Bulma](https://bulma.io)
 
-particles.js - [github.com/VincentGarreau/particles.js/]
+[particles.js](github.com/VincentGarreau/particles.js/)
 
-typed.js - [github.com/mattboldt/typed.js/]
+[typed.js](https://github.com/mattboldt/typed.js/)
